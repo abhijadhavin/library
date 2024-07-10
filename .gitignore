@@ -1,0 +1,48 @@
+# dependencies
+node_modules 
+
+# Logs
+/library-app/logs
+/library-app/*.log
+/library-app/npm-debug.log*
+/library-app/yarn-debug.log*
+/library-app/yarn-error.log*
+/library-app/pnpm-debug.log*
+/library-app/lerna-debug.log*
+
+/library-app/node_modules
+/library-app/dist
+/library-app/dist-ssr
+/library-app/*.local
+
+# Editor directories and files
+/library-app/.vscode/*
+/library-app/!.vscode/extensions.json
+/library-app/.idea
+/library-app/.DS_Store
+/library-app/*.suo
+/library-app/*.ntvs*
+/library-app/*.njsproj
+/library-app/*.sln
+/library-app/*.sw?
+
+
+#server dependencies
+
+/library-app/package-lock.json
+node_modules
+dist
+dist-ssr
+*.local
+.env
+package-lock.json
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
